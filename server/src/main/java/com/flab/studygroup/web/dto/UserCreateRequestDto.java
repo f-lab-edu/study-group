@@ -1,8 +1,6 @@
 package com.flab.studygroup.web.dto;
 
-import java.time.LocalDateTime;
-
-public class UserRequestDto {
+public class UserCreateRequestDto {
 	private Long id;
 	private String name;
 	private String purpose;
