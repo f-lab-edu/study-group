@@ -1,13 +1,13 @@
 package com.flab.studygroup.web.dto;
 
 import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 @Getter
-@NoArgsConstructor
+@RequiredArgsConstructor
 public class GroupCreateRequestDto {
-	private Long id;
-	private String name;
-	private String password;
-	private String tel;
+	private final Long id;
+	private final String name;
+	private final String password;
+	private final String tel;
 }
