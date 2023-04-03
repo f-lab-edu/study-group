@@ -6,8 +6,14 @@ import lombok.RequiredArgsConstructor;
 @Getter
 @RequiredArgsConstructor
 public class GroupCreateRequestDto {
-	private final Long id;
-	private final String name;
-	private final String password;
-	private final String tel;
+	private Long id;
+	private String name;
+	private String purpose;
+	private String keyword;
+	private String day;
+	private String time;
+	private int online;
+	private int limit;
+	private String startdate;
+	private String intro;
 }
